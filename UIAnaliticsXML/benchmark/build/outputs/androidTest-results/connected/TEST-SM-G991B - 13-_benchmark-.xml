@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.benchmark.ExampleStartupBenchmark" tests="4" failures="0" errors="0" skipped="0" time="242.045" timestamp="2023-08-30T16:44:29" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-G991B - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":benchmark" />
+  </properties>
+  <testcase name="scrollTest" classname="com.example.benchmark.ExampleStartupBenchmark" time="111.647" />
+  <testcase name="bottomNavigationTest" classname="com.example.benchmark.ExampleStartupBenchmark" time="48.208" />
+  <testcase name="scrollAndNavigate" classname="com.example.benchmark.ExampleStartupBenchmark" time="34.142" />
+  <testcase name="addToVisitedTest" classname="com.example.benchmark.ExampleStartupBenchmark" time="38.361" />
+</testsuite>

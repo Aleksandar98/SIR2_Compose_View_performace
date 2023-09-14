@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.benchmark" >
+4
+5    <uses-sdk
+5-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:5:5-7:41
+6        android:minSdkVersion="24"
+6-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:6:9-35
+7        android:targetSdkVersion="33" />
+7-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:7:9-38
+8
+9    <queries>
+9-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:9:5-11:15
+10        <package android:name="com.example.uianaliticsxml" />
+10-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:10:9-62
+10-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:10:18-59
+11        <package android:name="androidx.test.orchestrator" />
+11-->[androidx.test:runner:1.5.2] C:\Users\Aleksandar\.gradle\caches\transforms-3\7c71d28e4d1bd93ee021661c938dc425\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+11-->[androidx.test:runner:1.5.2] C:\Users\Aleksandar\.gradle\caches\transforms-3\7c71d28e4d1bd93ee021661c938dc425\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+12        <package android:name="androidx.test.services" />
+12-->[androidx.test:runner:1.5.2] C:\Users\Aleksandar\.gradle\caches\transforms-3\7c71d28e4d1bd93ee021661c938dc425\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+12-->[androidx.test:runner:1.5.2] C:\Users\Aleksandar\.gradle\caches\transforms-3\7c71d28e4d1bd93ee021661c938dc425\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+13        <package android:name="com.google.android.apps.common.testing.services" />
+13-->[androidx.test:runner:1.5.2] C:\Users\Aleksandar\.gradle\caches\transforms-3\7c71d28e4d1bd93ee021661c938dc425\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+13-->[androidx.test:runner:1.5.2] C:\Users\Aleksandar\.gradle\caches\transforms-3\7c71d28e4d1bd93ee021661c938dc425\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+14    </queries>
+15
+16    <instrumentation
+16-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:13:5-18:57
+17        android:name="androidx.test.runner.AndroidJUnitRunner"
+17-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:14:9-63
+18        android:functionalTest="false"
+18-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:15:9-39
+19        android:handleProfiling="false"
+19-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:16:9-40
+20        android:label="Tests for com.example.benchmark"
+20-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:17:9-56
+21        android:targetPackage="com.example.benchmark" />
+21-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:18:9-54
+22
+23    <!--
+24    QUERY_ALL_PACKAGES is used to enable macrobenchmarks to read package information from
+25    potential target packages, e.g. for querying debuggable, profileable, or default launch intent.
+26
+27    This could also be done by making each macrobenchmark specify a <queries/> tag, with the
+28    target package, but this removes the need for documenting that setup step, and detecting
+29    misconfiguration.
+30    -->
+31    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+31-->[androidx.benchmark:benchmark-macro:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\bec30404bcd388fe80dce97160b2b437\transformed\benchmark-macro-1.1.1\AndroidManifest.xml:33:5-35:53
+31-->[androidx.benchmark:benchmark-macro:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\bec30404bcd388fe80dce97160b2b437\transformed\benchmark-macro-1.1.1\AndroidManifest.xml:34:9-61
+32    <!--
+33    This is needed to write benchmark report data to an external directory during instrumented
+34    tests to allow the accompanying androidx.benchmark gradle plugin to pull the reports onto host
+35     machine after the tests are done running.
+36    -->
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37-->[androidx.benchmark:benchmark-common:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\AndroidManifest.xml:29:5-81
+37-->[androidx.benchmark:benchmark-common:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\AndroidManifest.xml:29:22-78
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39    <uses-permission android:name="android.permission.REORDER_TASKS" />
+39-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+39-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+40
+41    <application
+41-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:20:5-22:19
+42        android:debuggable="true"
+43        android:extractNativeLibs="false" >
+44        <uses-library android:name="android.test.runner" />
+44-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:21:9-60
+44-->C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsXML\benchmark\build\intermediates\tmp\manifest\benchmark\tempFile2ProcessTestManifest16153888942288511658.xml:21:23-57
+45        <!-- Activity used to block background content while benchmarks are running -->
+46        <activity
+46-->[androidx.benchmark:benchmark-common:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\AndroidManifest.xml:34:9-38:20
+47            android:name="androidx.benchmark.IsolationActivity"
+47-->[androidx.benchmark:benchmark-common:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\AndroidManifest.xml:35:13-64
+48            android:exported="true"
+48-->[androidx.benchmark:benchmark-common:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\AndroidManifest.xml:36:13-36
+49            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+49-->[androidx.benchmark:benchmark-common:1.1.1] C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\AndroidManifest.xml:37:13-77
+50        </activity>
+51        <activity
+51-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+52            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+52-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+53            android:exported="true"
+53-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+54            android:theme="@style/WhiteBackgroundTheme" >
+54-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+55            <intent-filter android:priority="-100" >
+55-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+55-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+56-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+60            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+60-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+61            android:exported="true"
+61-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+62            android:theme="@style/WhiteBackgroundTheme" >
+62-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+63            <intent-filter android:priority="-100" >
+63-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+63-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+64-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+68            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+68-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+69            android:exported="true"
+69-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+70            android:theme="@style/WhiteBackgroundDialogTheme" >
+70-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+71            <intent-filter android:priority="-100" >
+71-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+71-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+72-->[androidx.test:core:1.5.0] C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:26:9-34:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:27:13-67
+78            android:authorities="com.example.benchmark.androidx-startup"
+78-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:28:13-68
+79            android:exported="false" >
+79-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:29:13-37
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:32:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:33:17-49
+83        </provider>
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:36:9-45:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:37:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:38:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:39:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:40:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:41:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:42:13-44:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:43:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.0.3] C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\AndroidManifest.xml:43:25-88
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>

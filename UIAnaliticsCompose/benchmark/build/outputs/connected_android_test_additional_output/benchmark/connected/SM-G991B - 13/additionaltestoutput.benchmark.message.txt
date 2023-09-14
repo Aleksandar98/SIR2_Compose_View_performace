@@ -1,0 +1,4 @@
+ExampleStartupBenchmark_scrollTest
+frameDurationCpuMs   P50    6.8,   P90    9.4,   P95   10.8,   P99   14.9
+frameOverrunMs   P50   -6.7,   P90   -4.0,   P95   -2.7,   P99    5.7
+Traces: Iteration [0](file://ExampleStartupBenchmark_scrollTest_iter000_2023-08-30-17-06-17.perfetto-trace) [1](file://ExampleStartupBenchmark_scrollTest_iter001_2023-08-30-17-06-42.perfetto-trace) [2](file://ExampleStartupBenchmark_scrollTest_iter002_2023-08-30-17-07-12.perfetto-trace) [3](file://ExampleStartupBenchmark_scrollTest_iter003_2023-08-30-17-07-42.perfetto-trace) [4](file://ExampleStartupBenchmark_scrollTest_iter004_2023-08-30-17-08-12.perfetto-trace)

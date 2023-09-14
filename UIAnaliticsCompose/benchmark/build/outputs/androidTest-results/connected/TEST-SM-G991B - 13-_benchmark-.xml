@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.benchmark.ExampleStartupBenchmark" tests="1" failures="0" errors="0" skipped="0" time="176.315" timestamp="2023-08-30T17:08:23" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-G991B - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":benchmark" />
+  </properties>
+  <testcase name="scrollTest" classname="com.example.benchmark.ExampleStartupBenchmark" time="171.683" />
+</testsuite>

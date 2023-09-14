@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".DestinationDetailActivity">
+
+<ImageView
+    android:layout_margin="10dp"
+    android:id="@+id/detailImg"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/ic_launcher_background"/>
+
+<TextView
+    android:id="@+id/detailTitle"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="22sp"
+    android:layout_marginTop="5dp"
+    android:text="Name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/detailCountry"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:text="Country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/haveVisitedSwitch"
+        android:theme="@style/SCBSwitch"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have Visited"/>
+
+    <TextView
+        android:id="@+id/detailShortDesc"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="Short desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/detailLongDesc"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="Long desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

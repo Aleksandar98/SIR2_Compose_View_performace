@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.benchmark-mergeBenchmarkResources-11:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Aleksandar\\.gradle\\caches\\transforms-3\\17f0afbb3205add88279737456aef309\\transformed\\startup-runtime-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aleksandar\\.gradle\\caches\\transforms-3\\12087d3b9e9ed1646232328e7220cadc\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,11",
+                        "startColumns": "0,0",
+                        "startOffsets": "176,544",
+                        "endLines": "10,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "543,909"
+                    },
+                    "to": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "138,510",
+                        "endLines": "9,16",
+                        "endColumns": "8,8",
+                        "endOffsets": "505,875"
+                    }
+                }
+            ]
+        }
+    ]
+}

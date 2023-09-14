@@ -1,0 +1,16 @@
+com.example.benchmark-tracing-ktx-1.1.0-0 C:\Users\Aleksandar\.gradle\caches\transforms-3\1126fc8020b0ece371339049fa50c5a1\transformed\tracing-ktx-1.1.0\res
+com.example.benchmark-core-1.5.0-1 C:\Users\Aleksandar\.gradle\caches\transforms-3\12087d3b9e9ed1646232328e7220cadc\transformed\core-1.5.0\res
+com.example.benchmark-startup-runtime-1.0.0-2 C:\Users\Aleksandar\.gradle\caches\transforms-3\17f0afbb3205add88279737456aef309\transformed\startup-runtime-1.0.0\res
+com.example.benchmark-benchmark-common-1.1.1-3 C:\Users\Aleksandar\.gradle\caches\transforms-3\185777c373327ef6ea0fa1fd3d36e341\transformed\benchmark-common-1.1.1\res
+com.example.benchmark-benchmark-macro-junit4-1.1.1-4 C:\Users\Aleksandar\.gradle\caches\transforms-3\24d32e03e9fc3b1cd4d002065c3ce504\transformed\benchmark-macro-junit4-1.1.1\res
+com.example.benchmark-annotation-experimental-1.1.0-5 C:\Users\Aleksandar\.gradle\caches\transforms-3\9eafe4103de1c9ae8425348159ad083d\transformed\annotation-experimental-1.1.0\res
+com.example.benchmark-profileinstaller-1.0.3-6 C:\Users\Aleksandar\.gradle\caches\transforms-3\afbcf6211666c48dc0db99505179ba32\transformed\profileinstaller-1.0.3\res
+com.example.benchmark-benchmark-macro-1.1.1-7 C:\Users\Aleksandar\.gradle\caches\transforms-3\bec30404bcd388fe80dce97160b2b437\transformed\benchmark-macro-1.1.1\res
+com.example.benchmark-tracing-1.1.0-8 C:\Users\Aleksandar\.gradle\caches\transforms-3\c2f13259d2881bd8985b8272f40fa501\transformed\tracing-1.1.0\res
+com.example.benchmark-pngs-9 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\build\generated\res\pngs\benchmark
+com.example.benchmark-resValues-10 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\build\generated\res\resValues\benchmark
+com.example.benchmark-mergeBenchmarkResources-11 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\build\intermediates\incremental\benchmark\mergeBenchmarkResources\merged.dir
+com.example.benchmark-mergeBenchmarkResources-12 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\build\intermediates\incremental\benchmark\mergeBenchmarkResources\stripped.dir
+com.example.benchmark-merged_res-13 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\build\intermediates\merged_res\benchmark
+com.example.benchmark-benchmark-14 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\src\benchmark\res
+com.example.benchmark-main-15 C:\Users\Aleksandar\AndroidStudioProjects\UIAnaliticsCompose\benchmark\src\main\res
